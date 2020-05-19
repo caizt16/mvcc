@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS += -Wall -std=c++11
+CFLAGS += -Wall -std=c++11 -O2
 DEPS = $(wildcard *.cpp)
 OBJS = $(patsubst %.cpp,%.o,$(DEPS))
 
